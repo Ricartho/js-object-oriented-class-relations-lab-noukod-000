@@ -5,7 +5,7 @@ class Driver{
   constructor(name){
     this.id = ++driverID;
     this.name = name;
+    
+    store.drivers.push(this);
   }
-  
-  store.drivers.push(this);
 }
