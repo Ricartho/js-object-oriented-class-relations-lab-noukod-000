@@ -6,4 +6,6 @@ class Driver{
     this.id = ++driverID;
     this.name = name;
   }
+  
+  store.drivers.push(this);
 }
