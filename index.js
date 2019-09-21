@@ -11,3 +11,12 @@ class Driver{
     store.drivers.push(this);
   }
 }
+
+class Passenger{
+  constructor(name){
+    this.id = ++passengerID;
+    this.name = name;
+    
+    store.passengers.push(this);
+  }
+}
